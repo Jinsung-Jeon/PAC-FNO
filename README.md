@@ -38,7 +38,7 @@ torchrun --nproc_per_node=4 main.py --model convnext --operator pfno_large --dat
 ``--resume`` the best checkpoints from the former phase.
 
 ## Test
-We will release checkpoints after review (cf., checkpoints exceed the maximum ICLR Supplementary material size of 100MB).
+We released checkpoints for inception v3 on imagenet.
 To reproduce our results, ``--val-resize-size`` and ``--val-crop-size`` should be adjusted.
 The following sets of sizes are used for evaluation.
 
